@@ -1,0 +1,27 @@
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #F3F4F6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    padding: 0;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    border: 1px solid #FF0066;
+    color: #FF0066;
+    font-weight: bold;
+    background: transparent;
+    transition: all 0.5s ease;
+}
+.btn:hover{
+    background-color: #FF0066;
+    color: white;
+}

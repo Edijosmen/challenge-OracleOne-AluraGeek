@@ -1,0 +1,30 @@
+.navb{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 3rem;
+}
+.navb__search{
+   width: 70%;
+}
+.search__input{
+    width: 100%;
+    border-radius: 8px;
+    height: 30px;
+    border-color: #3a3a3a;
+   border: 1px solid #3a3a3a;
+}
+.search__input:focus{
+    outline-color: #FF0066;
+}
+.navb__login{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and  (max-width:768px) {
+    .navb{
+        flex-direction: column;
+    }
+}

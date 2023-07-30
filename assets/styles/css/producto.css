@@ -1,0 +1,77 @@
+
+.starwars__head,.console__head,.some__head,.producto__head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 5rem;
+
+
+}
+.starwars__container ,.some__container, .console__container,.producto__container{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container__item{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+.item__name{
+    font-size: 18px;
+    font-weight:500;
+    font-family:'raleway';
+}
+.item__precie{
+    font-size: 22px;
+    font-weight: bold;
+    font-family:'raleway';
+}
+.some__link,.console__link,.starwars__link{
+    color: #FF0066;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.producto{
+    margin: 5rem 3rem;
+}
+.producto__head{
+    margin: 2rem 3rem;
+}
+.container__item .options{
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+.container__item:hover .options{
+    display: block;
+}
+.container__item:hover .img {
+    opacity:0.3;
+}
+.options button {
+    width: 150px;
+    height: 40px;
+
+    background-color: #FF0066;
+    color: #F3F4F6;
+    border: 1px solid #FF0066;
+    text-decoration: none;
+    
+}
+.btnopt:hover{
+    background:#F3F4F6;
+    color: gray ;
+    border: 1px solid gray;
+}
+.addpro{
+    width: 200px;
+}

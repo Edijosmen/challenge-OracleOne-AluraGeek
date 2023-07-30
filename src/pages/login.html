@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="/assets/styles/normalize.css">
+    <link rel="stylesheet" href="/assets/styles/reset.css">
+    <link rel="stylesheet" href="/assets/styles/css/navb.css">
+    <link rel="stylesheet" href="/assets/styles/css/login.css">
+    <link rel="stylesheet" href="/assets/styles/css/footer.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.20/dist/sweetalert2.min.css">
+</head>
+<body>
+    <header class="headb">
+        <nav class="navb">
+            <img src="/assets/img/logo/Logo.png" alt="logo-alura">
+            <div class="navb__search">
+                <input class="search__input" placeholder=" ¿Qué deseas buscar?.." type="text">
+            </div>  
+        </nav>
+    </header>
+   
+    <main>
+        <section class="login">
+            <form  class="login__form">
+                <label for="" class="form__title">Iniciar Sesión</label>
+                <input class="form__input" type="text" placeholder="  Escriba su Correo o Usuario">
+                <input class="form__input" type="password" placeholder="  Contraseña">
+                <div class="form__btn">
+                    <button class="btn form__btn" data-sing>Ingresar</button>
+                </div>
+            </form>
+        </section>
+        <section class="footer">
+            <footer class="footer__container">
+                <div class="footerlogo">
+                    <img src="/assets/img/logo/Logo.png" alt="footer-logo">
+                </div>
+                <div class="info">
+                    <a class="info__link">Quienes somos</a>
+                    <a class="info__link">Política de privacidad</a>
+                    <a class="info__link">Programa de fidelidad</a>
+                    <a class="info__link">Nuestras Tiendas</a>
+                    <a class="info__link">Quiero ser franquiciado</a>
+                    <a class="info__link">Anúncie aquí</a>
+                </div>
+                <div class="contact">
+                    <form class="contact__form">
+                        <h3 class="form__title">Hable con nosotros</h3>
+                        <div class="input-container ">
+                            <input class="input " type="text "  placeholder="Nombre">
+                            <label class="input-label" for="nombre">Nombre</label>
+                        </div>
+                        <div class="textarea-container">
+                            <textarea class="textarea" name="" rows="3" placeholder="Escribe un Mensaje"></textarea>
+                            <label class="textarea-label" for="nombre">Escribe un Mensaje</label>
+                        </div>
+                        <button class="btn navb__login">Enviar</button>
+                    </form>
+                </div>
+            </footer>          
+        </section>
+      <div class="foot">
+        <p class="edijosmen">@ 2023_Edijosmen</p>
+      </div>
+    </main>
+  
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.20/dist/sweetalert2.all.min.js"></script>
+    <script type="module" src="/assets/js/alert.js"></script>
+</body>
+</html>
